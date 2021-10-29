@@ -1,0 +1,29 @@
+{
+  "name": "tech_blog",
+  "version": "1.0.0",
+  "description": "This is a tech blog",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannfirefight322/Tech_Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannfirefight322/Tech_Blog/issues"
+  },
+  "homepage": "https://github.com/dannfirefight322/Tech_Blog#readme"
+}
