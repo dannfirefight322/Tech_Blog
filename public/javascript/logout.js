@@ -1,4 +1,5 @@
-const logout=async()=> {
+const logout=async(event)=> {
+  event.preventDefault();
     const response = async('/api/users/logout', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' }
