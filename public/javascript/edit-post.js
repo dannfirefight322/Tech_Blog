@@ -1,4 +1,4 @@
-async function editFormHandler(event) {
+const editFormHandler = async(event)=> {
     event.preventDefault();
 
     // get the post id from the url

@@ -1,4 +1,4 @@
-async function newFormHandler(event) {
+const newFormHandler= async(event)=> {
     event.preventDefault();
 
     // Get the post title and post text from the form

@@ -1,4 +1,4 @@
-async function editFormHandler(event) {
+const editFormHandler= async(event)=> {
     event.preventDefault();
 
     // Get the user name, user id, email, and password from the form
@@ -22,7 +22,7 @@ async function editFormHandler(event) {
 
 
     // use the update route to update the post
-    const response = await fetch(`/api/users/${id}`, {
+    const response = async(`/api/users/${id}`, {
         method: 'PUT',
         body: JSON.stringify(userUpdate),
         headers: {

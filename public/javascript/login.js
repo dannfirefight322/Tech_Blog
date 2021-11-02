@@ -1,4 +1,4 @@
-async function loginFormHandler(event) {
+const loginFormHandler= async(event)=> {
     event.preventDefault();
 
     // get the information from the login form

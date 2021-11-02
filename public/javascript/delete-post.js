@@ -1,4 +1,4 @@
-async function deleteFormHandler(event) {
+const deleteFormHandler= async(event)=> {
     event.preventDefault();
 
     // get the post id from the url
